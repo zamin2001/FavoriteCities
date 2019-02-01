@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		458FC3F42204B58400F711AD /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458FC3F32204B58400F711AD /* City.swift */; };
 		45F2A1612200C7FF00CE248C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F2A1602200C7FF00CE248C /* AppDelegate.swift */; };
 		45F2A1632200C7FF00CE248C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F2A1622200C7FF00CE248C /* MasterViewController.swift */; };
 		45F2A1652200C7FF00CE248C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F2A1642200C7FF00CE248C /* DetailViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		458FC3F32204B58400F711AD /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		45F2A15D2200C7FF00CE248C /* FavoriteCities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteCities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F2A1602200C7FF00CE248C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45F2A1622200C7FF00CE248C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				45F2A1602200C7FF00CE248C /* AppDelegate.swift */,
 				45F2A1622200C7FF00CE248C /* MasterViewController.swift */,
+				458FC3F32204B58400F711AD /* City.swift */,
 				45F2A1642200C7FF00CE248C /* DetailViewController.swift */,
 				45F2A1662200C7FF00CE248C /* Main.storyboard */,
 				45F2A1692200C80000CE248C /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			files = (
 				45F2A1652200C7FF00CE248C /* DetailViewController.swift in Sources */,
 				45F2A1632200C7FF00CE248C /* MasterViewController.swift in Sources */,
+				458FC3F42204B58400F711AD /* City.swift in Sources */,
 				45F2A1612200C7FF00CE248C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
