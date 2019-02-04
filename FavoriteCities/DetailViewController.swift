@@ -26,6 +26,14 @@ class DetailViewController: UIViewController {
             configureView()
         }
     }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        configureView()
+    }
+
+    
 
     func configureView() {
         // Update the user interface for the detail item.
@@ -45,14 +53,11 @@ class DetailViewController: UIViewController {
             city.name = cityTextField.text!
             city.state = stateTextField.text!
             city.population = Int(populationTextField.text!)!
+            
+            ///This Function allows you to save your data when the view will disappear
         }
     }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        configureView()
-    }
 
     
 
